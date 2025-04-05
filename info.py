@@ -16,17 +16,17 @@ def is_enabled(value, default):
         return default
 
 #main variables
-API_ID = int(environ.get('API_ID', '20725471'))
-API_HASH = environ.get('API_HASH', '7d32846e37e769270e94b6085b61bebf')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6719328690:AAHvFOYb2w2ssurw-JwRL29DD3mBsi0oFHk')
+API_ID = int(environ.get('API_ID', '25416594'))
+API_HASH = environ.get('API_HASH', 'ee4361d79ef87c88bce8e111dbf562c9')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8076770635:AAG4_AChUueeoq-TLWvm1hJqmMvv3CeiO4Q')
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6093349648').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001952883830 -1001931435328 -1002032241046 -1002500062682 -1001863061409 -1001627590692').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5803180946').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002610307809').split()]
 MOVIE_UPDATE = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('MOVIE_UPDATE', '-1002122516919').split()]
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002122516919').split()]
 AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002329006749').split()] # give channel id with seperate space. Ex : ('-10073828 -102782829 -1007282828')
 
-USERNAME = environ.get('USERNAME', "https://t.me/DG_shiva")
+USERNAME = environ.get('USERNAME', "https://t.me/Sofimohsin56")
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/movies_group8')
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movies_group8')
 TUTORIAL = environ.get("TUTORIAL", "t.me/moviehiap/42")
